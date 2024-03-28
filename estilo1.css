@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(232, 243, 243);
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+header {
+    display: flex;
+    background-color: rgb(201, 224, 242);
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 10px 10px;
+    display: block;
+}
+
+header a {
+    margin: 6px 1px;
+    padding: 3px;
+    background-color: rgb(123, 69, 248);
+    color: rgb(245, 245, 239);
+    text-decoration: none;
+    text-shadow: none;
+}
+
+a:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+#logo img {
+    min-width: 100%;
+}
+
+#titulo {
+    color: rgb(108, 51, 242);
+    text-shadow: 2px 2px 2px #aaa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    float: right;
+}
+
+#receta a {
+    margin: 12px 3px;
+    padding: 3px;
+    background-color: rgb(123, 69, 248);
+    color: rgb(245, 245, 239);
+    text-decoration: none;
+
+}
+
+#r :hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+#receta {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+}
+
+#receta p {
+    color: rgb(108, 51, 242);
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    box-sizing: border-box;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+#pasos {
+    text-align: justify;
+    display: block;
+    margin: 30px 30px;
+}
+
+#pasos h4 {
+    color: rgb(108, 51, 242);
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#rc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 21px;
+}
+
+#rc a {
+    background-color: rgb(123, 69, 248);
+    color: rgb(245, 245, 239);
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(108, 51, 242);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3:hover {
+    transform: scale(1.3);
+}
+
+footer {
+    background-color: rgb(201, 224, 242);
+}
+
+#redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#redes img {
+    margin: 0 20px;
+    justify-content: center;
+    width: 18px;
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+    font-size: small;
+    color: rgb(108, 51, 242);
+}

@@ -1,0 +1,46 @@
+#prologo {
+    text-align: center;
+    margin: 60px auto;
+    font-size: 21px;
+}
+#imagen img {
+    box-shadow: 0 0 10px rgb(108, 51, 242);
+}
+
+#rc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 21px;
+}
+
+#rc a {
+    background-color: rgb(123, 69, 248);
+    color: rgb(245, 245, 239);
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(201, 224, 242);
+}
+
+#redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#redes img {
+    margin: 0 20px;
+    justify-content: center;
+    width: 18px;
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+    font-size: small;
+    color: rgb(108, 51, 242);
+}

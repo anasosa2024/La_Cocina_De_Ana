@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(232, 243, 243);
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    overflow-x: hidden;
+}
+
+.container {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(201, 224, 242);
+}
+
+header a {
+    margin: 0 10px;
+    padding: 1%;
+    background-color: rgb(123, 69, 248);
+    color: rgb(245, 245, 239);
+    text-decoration: none;
+    border-radius: 20%;
+    line-height: 2;
+}
+
+#menu {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100vw;
+    padding: 1%;
+    flex-wrap: wrap;
+
+}
+
+#logo {
+    float: left;
+}
+
+#titulo {
+    color: rgb(108, 51, 242);
+    text-shadow: 2px 2px 2px #aaa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    line-height: normal;
+}
+
+a:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+#sug {
+    color: rgb(108, 51, 242);
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+    font-style: oblique;
+}
+
+#imagen img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    padding: 10px;
+    max-width: 40vw;
+}
+
+#prologo {
+    text-align: center;
+    display: block;
+    width: 60vw;
+    margin: 30px auto;
+    font-size: 21px;
+}
+
+#rc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 21px;
+}
+
+#rc a {
+    background-color: rgb(123, 69, 248);
+    color: rgb(245, 245, 239);
+    text-decoration: none;
+    border-radius: 20%;
+    padding: 1%;
+}
+
+footer {
+    background-color: rgb(201, 224, 242);
+    margin: 0;
+}
+
+#redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 1%;
+}
+
+#redes img {
+    margin: 0 20px;
+    justify-content: center;
+    width: 18px;
+    padding: 5px;
+}
+
+footer p {
+    text-align: center;
+    font-size: small;
+    color: rgb(108, 51, 242);
+    margin: 0;
+}
+
+#receta a {
+    margin: 12px 3px;
+    padding: 3px;
+    background-color: rgb(123, 69, 248);
+    color: rgb(245, 245, 239);
+    text-decoration: none;
+
+}
+
+#r :hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+#receta {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+}
+
+#receta p {
+    color: rgb(108, 51, 242);
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    box-sizing: border-box;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+#pasos {
+    text-align: justify;
+    width: 70vw;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#pasos h4 {
+    color: rgb(108, 51, 242);
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+#cuerpo {
+    margin: 20px;
+}
